@@ -1,0 +1,111 @@
+/* Your Website Styles */
+body{
+	font-size: 16px;
+}
+
+img {
+	width: 28.125em;
+}
+
+.top img{
+	padding-left: 1em;
+	padding-top: 1em;
+	-webkit-transform:translateX(0em);
+	transition: -webkit-transform 1s;
+}
+
+.top img:hover{
+	-webkit-transform:translateX(1em);
+}
+h1{
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	font-size: 6.25em;
+	margin:0 auto;
+	padding-bottom: .3em;
+	
+}
+
+
+.cont{
+	margin-left: 33%;
+}
+p{
+	font-family: 'Noto Sans', sans-serif;
+	color:#006666;
+	padding-top: 2em;
+
+}
+h3{
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	font-size: 2.8125em;
+}
+
+.top{
+	background: #CAF547;
+	opacity: .75;
+	border-radius: 3.125em;
+}
+
+
+#bio{
+	padding-top: 2.5em;
+}
+
+#bio h3{
+	text-align: center;
+	margin-bottom: 2.5em;
+}
+#hobby{
+	margin-top: 6.25em;
+}
+
+#hobby h3{
+	text-align:center;
+	margin-bottom:  3.125em;
+}
+
+#hobby h5{
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	text-align: center;
+	font-size: 1.25em;
+	
+
+}
+
+ 
+#hobbies p{
+
+}
+
+#hobbies img{
+	width:12.5em;
+	height: 8.3125em;
+	
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+
+.btn{
+	color: #006666;
+	background: #A3C2A3;
+	padding: 1em 2em;
+	margin: 50px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: padding .5s, background-color .5s;
+}
+
+.btn:hover {
+	background-color: #CAF547;
+	padding:1em 2.25em;
+}
