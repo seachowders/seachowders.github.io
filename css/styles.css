@@ -1,111 +1,130 @@
-/* Your Website Styles */
 body{
-	font-size: 16px;
+    font-family: 'Raleway', sans-serif;  
+    
 }
 
-img {
-	width: 28.125em;
+.header{
+    text-align: center;
+    background-color:#B5D1C1;
+    padding-bottom: 1px;
+    margin-bottom:50px;
+    font-family: 'Raleway', sans-serif;
+    border-radius:5px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;  
+    color:#48735A;
+    text-align:right;
+    padding-right:100px;
+    border-bottom-style: solid;
+}
+.header h1{
+    font-size:4em;
+    color:#5D5D5D;
+    transition:color .5s;
+    padding-bottom: 25px;
+    padding-top:25px;
+    
+}
+.header h1:hover{
+    color:#48735A;
 }
 
-.top img{
-	padding-left: 1em;
-	padding-top: 1em;
-	-webkit-transform:translateX(0em);
-	transition: -webkit-transform 1s;
+#close{
+    background: #B5D1C1;
 }
-
-.top img:hover{
-	-webkit-transform:translateX(1em);
-}
-h1{
-	text-align: center;
-	font-family: 'PT Sans', sans-serif;
-	color:#006666;
-	font-size: 6.25em;
-	margin:0 auto;
-	padding-bottom: .3em;
-	
+#close:hover{
+    
+    background: #358556;
 }
 
 
-.cont{
-	margin-left: 33%;
+.prof{
+    margin-top:50px;
+    margin-left:50px;
+    width:75%;
+    border-radius:15%;
+    border: 5px solid #48735A;
+}
+.btn{
+    width:100%;
+    background-color:#B5D1C1;
+}
+.btn:hover{
+    border:none;
+    color:#fff;
+}
+.resume p{
+    font-size:1.5em;
+    margin-left:15px;
+}
+.resume h3{
+    margin-left:15px;
+}
+.resume h2{
+   text-align:left;
+}
+
+.smallText{
+    margin-left:60px;
+    width:70%;
+    padding-top: 10px;
+    font-size:1.2em;
+}
+.center{
+    text-align: center;
+}
+
+.header a{
+    border:2px solid #48735A;
+     text-transform: uppercase;
+    transition:color 1s, border 1s, background-color 1s;
+}
+
+a{
+   
+    margin-top: 20px;
+    font-size: 1.75em;
+    padding:5px 20px;
+    border-radius: 4px;
+    background-color:#fff;
+    color:#000;
+    
+    border-bottom-style:none;
+    transition:color .5s, border .5s, background-color .5s;
+}
+
+.header a:hover{
+    border: 2px solid #fff;
+    text-decoration: none;
+    color:#fff;
+    border-bottom-style:none;
+    
+    background-color: #358556;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#fff;
+    border-bottom-style:none;
+    
+    background-color: #358556;
+    
+}
+li{
+     font-family: 'EB Garamond', serif;
+     font-size:1.2em;
 }
 p{
-	font-family: 'Noto Sans', sans-serif;
-	color:#006666;
-	padding-top: 2em;
-
-}
-h3{
-	font-family: 'PT Sans', sans-serif;
-	color:#006666;
-	font-size: 2.8125em;
+    font-family: 'EB Garamond', serif;
+    font-size:1.5em;
 }
 
-.top{
-	background: #CAF547;
-	opacity: .75;
-	border-radius: 3.125em;
+caption{
+    text-align:center;
 }
 
-
-#bio{
-	padding-top: 2.5em;
+data-readmore-toggle{
+    border:none;
 }
 
-#bio h3{
-	text-align: center;
-	margin-bottom: 2.5em;
-}
-#hobby{
-	margin-top: 6.25em;
-}
-
-#hobby h3{
-	text-align:center;
-	margin-bottom:  3.125em;
-}
-
-#hobby h5{
-	font-family: 'PT Sans', sans-serif;
-	color:#006666;
-	text-align: center;
-	font-size: 1.25em;
-	
-
-}
-
- 
-#hobbies p{
-
-}
-
-#hobbies img{
-	width:12.5em;
-	height: 8.3125em;
-	
-}
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
-
-
-.btn{
-	color: #006666;
-	background: #A3C2A3;
-	padding: 1em 2em;
-	margin: 50px 0px;
-	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 5px;
-	transition: padding .5s, background-color .5s;
-}
-
-.btn:hover {
-	background-color: #CAF547;
-	padding:1em 2.25em;
-}
