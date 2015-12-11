@@ -14,7 +14,7 @@ body{
 h2{
     font-family: 'Raleway', sans-serif;  
     color:#48735A;
-    text-align:right;
+    
     padding-right:100px;
     border-bottom-style: solid;
 }
@@ -46,14 +46,7 @@ h2{
     border-radius:15%;
     border: 5px solid #48735A;
 }
-.btn{
-    width:100%;
-    background-color:#B5D1C1;
-}
-.btn:hover{
-    border:none;
-    color:#fff;
-}
+
 .resume p{
     font-size:1.5em;
     margin-left:15px;
@@ -77,9 +70,22 @@ h2{
 
 .header a{
     border:2px solid #48735A;
+    border-bottom:none;
      text-transform: uppercase;
     transition:color 1s, border 1s, background-color 1s;
 }
+article a{
+    background-color:#fff;
+    padding:5px 10px;
+    margin-right:10px;
+}
+
+
+article a:hover{
+    background-color:#fff;
+    
+}
+
 
 a{
    
@@ -90,7 +96,6 @@ a{
     background-color:#fff;
     color:#000;
     
-    border-bottom-style:none;
     transition:color .5s, border .5s, background-color .5s;
 }
 
@@ -126,5 +131,21 @@ caption{
 
 data-readmore-toggle{
     border:none;
+}
+
+.tn{
+    width:50px;
+    height:50px;
+    
+}
+
+.btn{
+    width:100%;
+    background-color:#B5D1C1;
+}
+.btn:hover{
+    border:none;
+    color:#fff;
+    background-color: #358556;
 }
 
